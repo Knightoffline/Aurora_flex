@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>user-Knightoffline</name>
+		<description>The 5e homebrew content from the user-Knightoffline website.</description>
+		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+		<update version="0.0.4">
+			<file name="dndwiki.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-Knightoffline/Elyapimi.index" />
+		</update>
+	</info>
+	<files>
+		<!-- Races -->
+		<file name="race-Forgottens.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-dryad.xml" />
+	</files>
+</index>
