@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<!-- file is created by: Knightoffline
+		date of file creation: 7 May 2025 -->
+		<name>Succubus</name>
+		<description>The Forgottens Race from the Aurora_flex, created by user "Knightoffline", with major contributions from user "Nion", and minor contributions from others users.</description>
+		<author> Forgottens varliği unutulmus bir irktir kendileri kanlari ölümsüzlüğün sirrini içerdiği gerekçesiyle yok edilmiştir. Kalan 3-5 kişinin soyu ise o kadar zamandir dünyadan uzaklar ki kimse onlari hatirlamiyor. </author>
+		<update version="0.0.2">
+			<file name="race-Forgotten.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-Knightoffline/races/race-Forgottens.xml" />
+		</update>
+	</info>
+
+	<element name="Forgottens" type="Race" source="Aurora_flex" id="ID_FLEX_RACE_FORGOTTENS">
+		<description>
+			<p>Forgottens varliği unutulmus bir irktir kendileri kanlari ölümsüzlüğün sirrini içerdiği gerekçesiyle yok edilmiştir. Kalan 3-5 kişinin soyu ise o kadar zamandir dünyadan uzaklar ki kimse onlari hatirlamiyor.</p>
+			<p>Forgottens tamamen izole yaşarlar, ölen üyelerini anmak için dünyanin çeşitli yerlerine lahitler insa ederler, yaşamlarindaki halini temsilen bir santanc tasi olarak sembolize ederler.</p>
+			<p>Forgottens kalplerinin derinlerinde derin bir intikam arzusu yatar ve bu duygu uyandiğinda onu durdurmak nerdeyse imkansizdir..</p>
+			<h4>PHYSICAL DESCRIPTION</h4>
+			<p>Unutulmuşlar gerçek halleriyle insanlara benzer bir görünüme sahiptirler, ancak kirmizi veya beyaz gözlüdürler. Genellikle ince, beyaz tonlu ve çok nadiren aşiri kaslidirlar.</p>
+			<h4>Forgotens names</h4>
+			<p>Forgottens tend to have names in the Celestial or strx language.</p>
+			<h4>INCUBUS/SUCCUBUS TRAITS</h4>
+			<p>Beautiful fiends who thrive on the corruption of immortal souls.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Charisma scores increase by 2 and intelligence increase by 1.<br/>
+				<span class="feature">Age.</span> Forgottens are similar to humans, typically reaching adulthood between the ages of 16 and 19 and can live 300 years.<br/>
+				<span class="feature">Alignment.</span>Due to their revenge, succubi often tend toward evil alignments. Neutral or good Fotgottens are extremely rare, but not unheard of. They have no particular tendency toward or against lawful or chaotic alignments.<br/>
+				<span class="feature">Size.</span>They are similar in size to most other humanoid races. Your size is Medium.<br/>
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+				<span class="feature">Darkvision.</span>Because you are a godblooded you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+				<span class="feature">Fiendish Nature.</span>Your creature type is considered to be both Celestial and Humanoid.<br/>
+				<span class="feature">Cursed Blood.</span>As an bonus action, you can use hex without using any compenent or spell slot.<br/>
+				<span class="feature">Silver Tongue.</span>You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.<br/>
+				<span class="feature">Languages.</span>You can speak, read, and write Common and your choice of Celestial or Infernal.<br/>
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'9"</set>
+			<set name="weight" modifier="2d4">110 lb.</set>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Succubus_(5e_Race)&amp;oldid=1538409</set>
+		</setters>
+		<rules>      
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (FORGOTTENS)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" number="2" />
+			<stat name="speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" supports="ID_LANGUAGE_CELESTİAL|ID_LANGUAGE_ABYSSAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Forgottens)" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_AURORA_FLEX_FORGOTTENS_RACIAL_TRAIT_FIENDISH_NATURE" />
+			<grant type="Racial Trait" id="ID_AURORA_FLEX_FORGOTTENS_RACIAL_TRAIT_CURSED_BLOOD" />
+			<grant type="Racial Trait" id="ID_AURORA_FLEX_FORGOTTENS_RACIAL_TRAIT_SILVER_TONGUE" />
+		</rules>
+	</element>
+
+	<element name="Fiendish Nature" type="Racial Trait" source="Aurora_flex" id="ID_WIKI_FORGOTTENS_RACIAL_TRAIT_FIENDISH_NATURE">
+		<description>
+			<p>Your creature type is considered to be both Celestial and Humanoid.</p>
+		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Succubus_(5e_Race)&amp;oldid=1538409#Succubus_Traits</set>
+		</setters>
+		<sheet>
+			<description>Your creature type is considered to be both Celestial and Humanoid.</description>
+		</sheet>
+	</element>
+
+	<element name="Cursed Blood" type="Racial Trait" source="Aurora_flex" id="ID_WIKI_FORGOTTENS_RACIAL_TRAIT_CURSED_BLOOD">
+		<description>
+			<p>As an bonus action, you can use hex without using any compenent or spell slot.</p>
+		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Succubus_(5e_Race)&amp;oldid=1538409#Succubus_Traits</set>
+		</setters>
+		<sheet action="Bonus_Action">
+			<description> Use Hex
+	</element>
+
+	<element name="Silver Tongue" type="Racial Trait" source="Aurora_flex" id="ID_Aurora_WIKI_FORGOTTENS_RACIAL_TRAIT_SILVER_TONGUE">
+		<description>
+			<p>You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.</p>
+		</description>
+		<setters>
+			<set name="sourceUrl">https://www.dandwiki.com/w/index.php?title=Succubus_(5e_Race)&amp;oldid=1538409#Succubus_Traits</set>
+		</setters>
+		<sheet>
+			<description>If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
+		</rules>
+	</element>
+</elements>
