@@ -6,7 +6,7 @@
 		</update>
 	</info>
 	<element name="Random bullshit go" type="Spell" source="Offline Knights" id="OK_RANDOM_BULLSHIT_GO">
-		<supports>Rogue, Ranger, Fighter</supports>
+		<supports>Rogue, Ranger, Sorcerer</supports>
 		<description>
 			<p>Bu büyü rastgele bullshit fırlatır</p>
 			<p class="indent">Çantandan rastgele itemler çağırır ve onları düşmana fırlatırsın. Fırlatılan eşyalar 1d10 zar ile belirlenir. </p>
