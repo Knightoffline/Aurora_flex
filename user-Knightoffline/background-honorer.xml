@@ -7,13 +7,13 @@
 		<description>The Witch Hunter Background from D&amp;D Wiki, created by user "5.81.193.177", with minor contributions from users "108.40.229.175" and "107.146.174.122".</description>
 		<author url="https://www.dandwiki.com/w/index.php?title=Witch_Hunter_(5e_Background)&amp;oldid=904554">D&amp;D Wiki</author>
 		<update version="0.0.4">
-			<file name="background-honorer.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-Knightoffline/background-honorer.xml" />
+			<file name="background-honorer.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/background-honorer.xml" />
 		</update>
 	</info>
 
 	<element name="honorer" type="Background" source="Aurora_flex" id="ID_WIKI_BACKGROUND_HONORER">
 		<description>
-			<p>Onur senin için herşey. Onurun için savaştın. Onurun için öldün, uyandın, dirildin ve fazlası</p>
+			<p>Onur senin için herşey. Onurun için savaştin. Onurun için öldün, uyandin, dirildin ve fazlasi</p>
 			<p>
 				<span class="emphasis">Skill Proficiencies:</span>Any two of: Insight, Intimidation, Investigation, Perception, Survival<br/>
 				<span class="emphasis">Tool Proficiencies:</span>Alchemist's tools, One type of gaming set<br/>
