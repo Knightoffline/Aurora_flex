@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1.2">
+			<file name="source.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/source.xml" />
+		</update>
+	</info>
+	<element name="Offline Knights" type="Source" source="Core" id="ID_SOURCE_OFFLINE_KNIGHTS">
+		<description>
+			<![CDATA[<p>Offline Knights is an epic random buildshit for the 5th Edition of the world's greatest roleplaying game.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">OK</set>
+			<set name="url"></set>
+			<set name="image"></set>
+			<set name="author" abbreviation="OF" url=""></set>
+			<set name="third-party">true</set>
+			<set name="release"></set>
+		</setters>
+	</element>
+</elements>
