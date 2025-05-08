@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<!-- file is created by: Knightoffline
+		<!-- file is created by: knightoffline
 		date of file creation: 7 May 2025 -->
 		<name>Succubus</name>
 		<description>The Forgottens Race from the Aurora_flex, created by user "Knightoffline", with major contributions from user "Nion", and minor contributions from others users.</description>
 		<author> Forgottens varliği unutulmus bir irktir kendileri kanlari ölümsüzlüğün sirrini içerdiği gerekçesiyle yok edilmiştir. Kalan 3-5 kişinin soyu ise o kadar zamandir dünyadan uzaklar ki kimse onlari hatirlamiyor. </author>
 		<update version="0.0.2">
-			<file name="race-Forgotten.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-Knightoffline/races/race-Forgottens.xml" />
+			<file name="race-Forgotten.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/races/race-Forgottens.xml" />
 		</update>
 	</info>
 
