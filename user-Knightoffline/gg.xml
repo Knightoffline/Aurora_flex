@@ -3,7 +3,7 @@
     <info>
         <name>File 1</name>
         <update version="1.0.0">
-            <file name="gg.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-Knightoffline/gg.xml" />
+            <file name="gg.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/gg.xml" />
         </update>
     </info>
     
