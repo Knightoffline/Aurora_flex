@@ -10,6 +10,6 @@
 	</info>
 	<files>
 		<!-- Races -->
-		<file name="race-Forgottens.xml" url="https://raw.githubusercontent.com/community-elements/elements-dndwiki/master/dndwiki/races/race-dryad.xml" />
+		<file name="race-Forgottens.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/dndwiki/races/race-Forgottens.xml" />
 	</files>
 </index>
