@@ -5,7 +5,7 @@
 		<description>The 5e homebrew content from the user-Knightoffline website.</description>
 		<author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
 		<update version="0.0.4">
-			<file name="dndwiki.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-Knightoffline/Elyapimi.index" />
+			<file name="dndwiki.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/Elyapimi.index" />
 		</update>
 	</info>
 	<files>
