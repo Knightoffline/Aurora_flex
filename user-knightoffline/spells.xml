@@ -6,24 +6,30 @@
 		</update>
 	</info>
 	<element name="Random bullshit go" type="Spell" source="Offline Knights" id="OK_RANDOM_BULLSHIT_GO">
-		<supports>Rogue, Ranger, Sorcerer</supports>
+		<supports>Cleric, Druid, Rogue, Ranger, Sorcerer</supports>
 		<description>
 			<p>Bu büyü rastgele bullshit fırlatır</p>
-			<p class="indent">Çantandan rastgele itemler çağırır ve onları düşmana fırlatırsın. Fırlatılan eşyalar 1d10 zar ile belirlenir. </p>
+			<p class="indent">Çantandan rastgele itemler çağırır ve onları düşmana fırlatarak menzilli bir saldırı yaparsın. Fırlatılan eşyalar 1d8 zar ile belirlenir. </p>
 			<ol>
-				<li>aa</li>
-				<li>dss</li>
-				<li>dd</li>
-				<li>ff</li>
+				<li>Kum</li>
+				<li>Taş</li>
+				<li>Elma</li>
+				<li>Kendinin ufak bir heykeli</li>
+				<li>Demir bilyeler</li>
+				<li>Kutsal sembol</li>
+				<li>Fırlatma bıçakları</li>
+				<li>Patlayıcı</li>
 			</ol>
-            </description>
+			<p>Kum: Rakibin üstü biraz kirlenir. Taş: 1+str hasar verirsin. Elma: Hedef eğer doktor değilse 2d4+Wis can yeniler eğer doktorsa iyileşmek yerine hasar alır. Kendinin ufak heykeli: 1d4+str bludgening hasarı verir. Demir bilyeler: Hedef Dex kurtarma atışı yapar, başarısız olursa 1d6 hasar alır ve yere düşer eğer başarılı olursa yarısı kadar hasar alır ve yere düşmez. Kutsal sembol: hedefe 1d6 radiant hasar verir eğer hedef şeytani yada celestial bir yaratıksa bonus 2d6 radiant hasarı alır. Fırlatma bıçakları: Hedef 2d4+dex delici hasar alır. Patlayıcı: Hedef 1d6 bludgening hasar alır ve 5 ft. yarı çapında bir patlamaya sebep olur. Hedef ve 5 ft. yakınındakiler dex kurtarma atışı yapmalıdır; başarısız olanlar 2d4 fire hasarı alır, başarılı olanlar ise bu hasarın yarısını alır. </p>
+            <p>Bu büyü kullanılan büyü slotu seviyesi kadar atış yapmanızı sağlar. Her atışta farklı nesne fırlatırsınız.</p>
+			</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 bonus action</set>
+			<set name="time">1 action</set>
 			<set name="duration"></set>
-			<set name="range">60 feet</set>
+			<set name="range">30 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
