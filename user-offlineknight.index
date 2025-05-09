@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.7">
+		<update version="1.0.2">
 			<file name="user-offlineknight.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/user-offlineknight.index" />
 		</update>
 	</info>
