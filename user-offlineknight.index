@@ -2,10 +2,10 @@
 <index>
 	<info>
 		<update version="0.0.7">
-			<file name="reddit.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/user-offlineknight.index" />
+			<file name="user-offlineknight.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/user-offlineknight.index" />
 		</update>
 	</info>
 	<files>
-		<file name="reddit-dnd.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/Knightoffline.index" />		
+		<file name="Knightoffline.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/Knightoffline.index" />		
 	</files>
 </index>
