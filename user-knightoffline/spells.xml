@@ -38,4 +38,27 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+
+	<element name="Büyük Annenin Terliği" type="Spell" source="Offline Knights" id="OK_BUYUK_ANNENIN_TERLIĞI">
+		<supports>Artificer, Bard, Cleric, Druid, Rogue, Ranger, Sorcerer, Wizard</supports>
+		<description>
+			<p>Bu büyü çağlardır bir büyük anneden başka büyük anneye geçmiştir. Bu büyü asla ıskalayamaz. Asla!!!</p>
+			<p class="indent">Büyülü bir terlik oluşturur ve onu fırlatırsın. Terlik hedefe 1d6 hasar verir </p>
+			<p>Bu cantripin hasarı 5. seviyede 2d6, 9. seviyede 3d6, 13. seviyede 4d6, 15.seviyede 4d6, 17. seviyede 5d6 olur.</p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration"></set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" >Any throwable object</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 </elements>
