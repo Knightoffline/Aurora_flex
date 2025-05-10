@@ -52,7 +52,7 @@
 				</thead>
 				<tr><td>3rd</td><td><em>ice knife, random bullshit go</em></td></tr>
 				<tr><td>5th</td><td><em>icingdeath’s frost, invisibility</em></td></tr>
-				<tr><td>7th</td><td><em>moon blessing, wall of fire</em></td></tr>
+				<tr><td>7th</td><td><em>moon blessing, wall of water</em></td></tr>
 				<tr><td>9th</td><td><em>guardian of faith, ice storm</em></td></tr>
 			</table>
 		</description>
@@ -65,7 +65,7 @@
 			<grant type="Spell" id="ID_WOTC_UA20210414_SPELL_ICINGDEATHS_FROST" level="5" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_INCISIBILITY" level="5" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="OK_MOON_BLESSING" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_WATER" level="7" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="9" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Cleric" prepared="true" />
 		</rules>
@@ -78,40 +78,41 @@
 			<p class="indent">In addition, you can use Sleight of hand with advantage.</p>
 		</description>
 	</element>
-	<element name="Luminous Veil" type="Archetype Feature" source="Offline Knights" id="ID_WOTC_PHB_ARCHETYPE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL">
+	<element name="Luminous Veil" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL</requirements>
 		<description>
 			<p>Starting at 9th level, bonus aksiyon kullanarak 1 dakika boyunca kendini ay ışığıyla sararsın</p>
 		</description>
-		<sheet>
+		<sheet action="Bonus Action" usage="1/Day">
 			<description>Bu süre boyunca; Rakipler sana saldırırken dezavantajlıdırlar ve fırsat saldırısı tetiklemessin. 1/long rest</description>
 		</sheet>
 	</element>
-	<element name="Lunar mark" type="Archetype Feature" source="Offline Knights" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER</requirements>
+	<element name="Lunar mark" type="Archetype Feature" source="Offline Knights" id="OKARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK</requirements>
 		<description>
-			<p>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</p>
+			<p>At 13th level, you gain the ability to mark a target with power of moon.</p>
 		</description>
-		<sheet action="Bonus Action">
-			<description>On your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>On your turn, you can mark one target. Bu hedef konsantrasyon gerektiren büyüleri yapamaz hale gelir ve tüm kaynaklardan bonus 1d6 radiant damage alır.</description>
 		</sheet>
 	</element>
-	<element name="Spell Thief" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_SPELL_THIEF</requirements>
+	<element name="Full moon requiem" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM</requirements>
 		<description>
-			<p>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</p>
-			<p class="indent">Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell’s effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn’t need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can’t cast that spell until the 8 hours have passed.</p>
-			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+			<p>At 17th level, Günde 1 defa ayın gerçek yüzüne 1 dakikalığına bürününebilirsin. Bu Formdayken:</p>
+			<p class="indent"> Moonstep: Her tur başlangıcında loş ışık yada gölgeye 30 ft teleport olabilirsin. Bu teleport haraket hakkından etkilenmez.</p>
+			<p class="indent">Radiant Execution: Lunar markın etkisindeki yada seni göremeyen hedefe yapılan ilk saldırı otomatik kritik olur.</p>
+			<p class="indent">Moonlight Blade: Tüm silah saldırıların radiant damage verir ve hedeflerin reaksiyonlarını kaybetmesine neden olur.</p>
 		</description>
-		<sheet action="Reaction" usage="1/Long Rest">
-			<description>Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can force the creature to make a DC{{spellcasting:dc:int}} saving throw with its spellcasting ability modifier. On a failed save, you negate the spell’s effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast. For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can’t cast that spell until the 8 hours have passed.</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>Ayın gücü damarlarında yükselir ve büyü slotların harici yeteneklerin short rest atmış gibi yenilenir.</description>
 		</sheet>
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_SPELLCASTING" />
-	<element name="Mage Hand Legerdemain Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN" />
-	<element name="Magical Ambush Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_MAGICAL_AMBUSH" />
-	<element name="Versatile Trickster Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER" />
-	<element name="Spell Thief Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ARCANE_TRICKSTER_SPELL_THIEF" />
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING" />
+	<element name="Mage Hand Legerdemain Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON" />
+	<element name="Magical Ambush Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" />
+	<element name="Versatile Trickster Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK" />
+	<element name="Spell Thief Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" />
 </elements>
