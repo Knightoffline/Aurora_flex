@@ -30,7 +30,7 @@
 	</element>
 
 	<element name="Spellcasting" type="Archetype Feature" source="Offline Knights" id="OK_Archetype_MOON_LIGHT_ASSASSIN_SPELLCASTING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING</requirements>
+		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING</requirements>
 		<description>
 			<p>When you reach 3rd level, you gain the ability to cast spells.</p>
 			<p class="indent"><b><i>Cantrips.</i></b> You learn three cantrips: mage hand and two other cantrips of your choice from the wizard spell list. You learn another cantrip of your choice at 10th level.</p>
@@ -71,7 +71,7 @@
 		</rules>
 	</element>
 	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON</requirements>
+		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON</requirements>
 		<description>
 			<p>Geceyle uyum içersindesin ve ay ışığında haraketlerin ölümcül olur.</p>
 			<p>Eğer karanlık yada loş ışık altında düşmana saldırırsan sneak atak için gerekli avantajı otomatik sağlarsın. Ve ayrıca Gece ay varsa 60ft. gece görüşü kazanırsın. </p>
@@ -79,7 +79,7 @@
 		</description>
 	</element>
 	<element name="Luminous Veil" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL</requirements>
+		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL</requirements>
 		<description>
 			<p>Starting at 9th level, bonus aksiyon kullanarak 1 dakika boyunca kendini ay ışığıyla sararsın</p>
 		</description>
@@ -87,8 +87,8 @@
 			<description>Bu süre boyunca; Rakipler sana saldırırken dezavantajlıdırlar ve fırsat saldırısı tetiklemessin. 1/long rest</description>
 		</sheet>
 	</element>
-	<element name="Lunar mark" type="Archetype Feature" source="Offline Knights" id="OKARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK</requirements>
+	<element name="Lunar mark" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK">
+		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK</requirements>
 		<description>
 			<p>At 13th level, you gain the ability to mark a target with power of moon.</p>
 		</description>
@@ -97,7 +97,7 @@
 		</sheet>
 	</element>
 	<element name="Full moon requiem" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM</requirements>
+		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM</requirements>
 		<description>
 			<p>At 17th level, Günde 1 defa ayın gerçek yüzüne 1 dakikalığına bürününebilirsin. Bu Formdayken:</p>
 			<p class="indent"> Moonstep: Her tur başlangıcında loş ışık yada gölgeye 30 ft teleport olabilirsin. Bu teleport haraket hakkından etkilenmez.</p>
@@ -110,9 +110,9 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING" />
-	<element name="Sight of moon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON" />
-	<element name="Luminous veil Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" />
-	<element name="Lunar mark Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK" />
-	<element name="Full moon requiem Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" />
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING" />
+	<element name="Sight of moon Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON" />
+	<element name="Luminous veil Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" />
+	<element name="Lunar mark Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK" />
+	<element name="Full moon requiem Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" />
 </elements>
