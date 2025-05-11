@@ -21,14 +21,13 @@
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_SPELLCASTING" level="3"/>
-			<grant type="Archetype Feature" id="OK_Archetype_MOON_KNİGHT_ASSASSIN_SIGHT_OF_MOON" level="3"/>
+			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON" level="3"/>
 			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" level="9"/>
 			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_LUNAR_MARK" level="13"/>
 			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" level="17"/>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
 		</rules>
 	</element>
-
 	<element name="Spellcasting" type="Archetype Feature" source="Offline Knights" id="OK_Archetype_MOON_LIGHT_ASSASSIN_SPELLCASTING">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING</requirements>
 		<description>
@@ -70,7 +69,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Rogue" prepared="true" />
 		</rules>
 	</element>
-	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_KNİGHT_ASSASSIN_SIGHT_OF_MOON">
+	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_KNIGHT_ASSASSIN_SIGHT_OF_MOON">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON</requirements>
 		<description>
 			<p>Geceyle uyum içersindesin ve ay ışığında haraketlerin ölümcül olur.</p>
