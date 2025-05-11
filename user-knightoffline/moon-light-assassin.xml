@@ -48,7 +48,7 @@
 			<h5 class="caption">MOON LIGHT ASSASSIN SPELLCASTING</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr><td>Rogue Level</td><td>Spells</td></tr>
 				</thead>
 				<tr><td>3rd</td><td><em>ice knife, random bullshit go</em></td></tr>
 				<tr><td>5th</td><td><em>icingdeath’s frost, invisibility</em></td></tr>
@@ -60,17 +60,17 @@
 			<description>Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="OK_RANDOM_BULLSHIT_GO" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_WOTC_UA20210414_SPELL_ICINGDEATHS_FROST" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="OK_MOON_BLESSING" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_WATER" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="OK_RANDOM_BULLSHIT_GO" level="3" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_UA20210414_SPELL_ICINGDEATHS_FROST" level="5" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="OK_MOON_BLESSING" level="7" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_WATER" level="7" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="9" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Rogue" prepared="true" />
 		</rules>
 	</element>
-	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON">
+	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_KNİGHT_ASSASSIN_SIGHT_OF_MOON">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON</requirements>
 		<description>
 			<p>Geceyle uyum içersindesin ve ay ışığında haraketlerin ölümcül olur.</p>
