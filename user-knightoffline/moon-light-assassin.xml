@@ -11,10 +11,10 @@
 		<description>
 			<p>Some rogues, having received the blessing of the moon, develop subtle skills such as stealth and agility through magic, learning magic and the path of the moon. These Rogues carry out assassinations in the name of the moon and offer their victims to it. They feel a deep respect for the moon, even if their goals are sometimes misguided.</p>
 			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_SPELLCASTING" />
-			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_MAGE_HAND_LEGERDEMAIN" />
-			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_MAGICAL_AMBUSH" />
-			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_VERSATILE_TRICKSTER" />
-			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_SPELL_THIEF" />
+			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON" />
+			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" />
+			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_LUNAR_MARK" />
+			<div element="OK_Archetype_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" />
 		</description>
 		<sheet display="false">
 			<description>You enhance you fine-honed skills of stealth and agility with moons blessing and magic.</description>
