@@ -83,7 +83,7 @@
 		<description>
 			<p>Starting at 9th level, bonus aksiyon kullanarak 1 dakika boyunca kendini ay ışığıyla sararsın</p>
 		</description>
-		<sheet action="Bonus Action" usage="1/Day">
+		<sheet action="Bonus Action" usage="1/Long Rest">
 			<description>Bu süre boyunca; Rakipler sana saldırırken dezavantajlıdırlar ve fırsat saldırısı tetiklemessin. 1/long rest</description>
 		</sheet>
 	</element>
