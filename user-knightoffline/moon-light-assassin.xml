@@ -70,7 +70,6 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Cleric" prepared="true" />
 		</rules>
 	</element>
-
 	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON</requirements>
 		<description>
@@ -79,7 +78,6 @@
 			<p class="indent">In addition, you can use Sleight of hand with advantage.</p>
 		</description>
 	</element>
-
 	<element name="Luminous Veil" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL</requirements>
 		<description>
@@ -89,7 +87,6 @@
 			<description>Bu süre boyunca; Rakipler sana saldırırken dezavantajlıdırlar ve fırsat saldırısı tetiklemessin. 1/long rest</description>
 		</sheet>
 	</element>
-
 	<element name="Lunar mark" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK</requirements>
 		<description>
@@ -99,7 +96,6 @@
 			<description>On your turn, you can mark one target. Bu hedef konsantrasyon gerektiren büyüleri yapamaz hale gelir ve tüm kaynaklardan bonus 1d6 radiant damage alır.</description>
 		</sheet>
 	</element>
-	
 	<element name="Full moon requiem" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM</requirements>
 		<description>
