@@ -21,10 +21,10 @@
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_SPELLCASTING" level="3"/>
-			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON" level="3"/>
-			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" level="9"/>
-			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_LUNAR_MARK" level="13"/>
-			<grant type="Archetype Feature" id="OK_Archetype_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" level="17"/>
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON" level="3"/>
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" level="9"/>
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK" level="13"/>
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" level="17"/>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
 		</rules>
 	</element>
@@ -77,7 +77,7 @@
 			<p class="indent">In addition, you can use Sleight of hand with advantage.</p>
 		</description>
 	</element>
-	<element name="Luminous Veil" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL">
+	<element name="Luminous Veil" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL</requirements>
 		<description>
 			<p>Starting at 9th level, bonus aksiyon kullanarak 1 dakika boyunca kendini ay ışığıyla sararsın</p>
