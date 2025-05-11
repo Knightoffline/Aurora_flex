@@ -69,8 +69,8 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Rogue" prepared="true" />
 		</rules>
 	</element>
-	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_KNIGHT_ASSASSIN_SIGHT_OF_MOON">
-		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON</requirements>
+	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON">
+		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON</requirements>
 		<description>
 			<p>Geceyle uyum içersindesin ve ay ışığında haraketlerin ölümcül olur.</p>
 			<p>Eğer karanlık yada loş ışık altında düşmana saldırırsan sneak atak için gerekli avantajı otomatik sağlarsın. Ve ayrıca Gece ay varsa 60ft. gece görüşü kazanırsın. </p>
