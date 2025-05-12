@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<update version="0.0.7">
+			<file name="OfflineKnights.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/OfflineKnights.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Knightoffline.index" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/Knightoffline.index" />
+	</files>
+</index>
