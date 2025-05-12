@@ -101,6 +101,7 @@
 			<p class="indent"> Moonstep: Her tur başlangıcında loş ışık yada gölgeye 30 ft teleport olabilirsin. Bu teleport haraket hakkından etkilenmez.</p>
 			<p class="indent">Radiant Execution: Lunar markın etkisindeki yada seni göremeyen hedefe yapılan ilk saldırı otomatik kritik olur.</p>
 			<p class="indent">Moonlight Blade: Tüm silah saldırıların radiant damage verir ve hedeflerin reaksiyonlarını kaybetmesine neden olur.</p>
+			<p class="indent">Ayın gücü damarlarında yükselir ve büyü slotların harici yeteneklerin short rest atmış gibi yenilenir.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
 			<description>Ayın gücü damarlarında yükselir ve büyü slotların harici yeteneklerin short rest atmış gibi yenilenir.</description>
