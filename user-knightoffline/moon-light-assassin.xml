@@ -25,20 +25,21 @@
 			<grant type="Archetype Feature" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" level="9"/>
 			<grant type="Archetype Feature" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK" level="13"/>
 			<grant type="Archetype Feature" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" level="17"/>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
 		</rules>
 	</element>
 	<element name="Spellcasting" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_SPELLCASTING">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING</requirements>
 		<description>
 			<p>When you reach 3rd level, you gain the ability to cast spells.</p>
-			<p class="indent"><b><i>Cantrips.</i></b> You learn three cantrips: mage hand and two other cantrips of your choice from the wizard spell list. You learn another cantrip of your choice at 10th level.</p>
-			<p class="indent"><b><i>Spell Slots.</i></b> Moon light assassin spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent"><b><i>Cantrips.</i></b> You learn three cantrips. You learn another cantrip of your choice at 10th level.</p>
+			<p class="indent"><b><i>Spell Slots.</i></b> Moon light assassin spellcasting table shows how many spell slots you have to cast your Cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
 			<p class="indent">For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.</p>
 			<p class="indent"><b><i>Spells Known of 1st-Level and Higher.</i></b> You know three 1st-level Cleric spells of your choice.</p>
 			<p class="indent">The Spells Known column of the Moon light assassin Spellcasting table shows when you learn more Cleric spells of 1st level or higher and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p>
-			<p class="indent">The spells you learn at 8th, 14th, and 20th level can come from any Cleric magic</p>
-			<p class="indent">Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you’re replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.</p>
-			<p class="indent"><b><i>Spellcasting Ability.</i></b> Wisdom is your spellcasting ability for your cleric spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p>
+			<p class="indent">The spells you learn at 8th, 14th, and 20th level can come from any Cleric domain</p>
+			<p class="indent">Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list.</p>
+			<p class="indent"><b><i>Spellcasting Ability.</i></b> Wisdom is your spellcasting ability for your cleric spells, since you learn your spells through dedicated study and memorization. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>
 			<center>
 				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
 				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
@@ -68,7 +69,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Rogue" prepared="true" />
 		</rules>
 	</element>
-	<element name="Sight of moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON">
+	<element name="Sight of Moon" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON</requirements>
 		<description>
 			<p>Geceyle uyum içersindesin ve ay ışığında haraketlerin ölümcül olur.</p>
@@ -85,7 +86,7 @@
 			<description>Bu süre boyunca; Rakipler sana saldırırken dezavantajlıdırlar ve fırsat saldırısı tetiklemessin.</description>
 		</sheet>
 	</element>
-	<element name="Lunar mark" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK">
+	<element name="Lunar Mark" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK</requirements>
 		<description>
 			<p>At 13th level, you gain the ability to mark a target with power of moon. On your turn, you can mark one target. Bu hedef konsantrasyon gerektiren büyüleri yapamaz hale gelir ve tüm kaynaklardan bonus 1d6 radiant damage alır.</p>
@@ -94,7 +95,7 @@
 			<description>On your turn, you can mark one target. Bu hedef konsantrasyon gerektiren büyüleri yapamaz hale gelir ve tüm kaynaklardan bonus 1d6 radiant damage alır.</description>
 		</sheet>
 	</element>
-	<element name="Full moon requiem" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM">
+	<element name="Full Moon Requiem" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM</requirements>
 		<description>
 			<p>At 17th level, Günde 1 defa ayın gerçek yüzüne 1 dakikalığına bürününebilirsin. Bu Formdayken:</p>
