@@ -25,7 +25,6 @@
 			<grant type="Archetype Feature" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" level="9"/>
 			<grant type="Archetype Feature" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_LUNAR_MARK" level="13"/>
 			<grant type="Archetype Feature" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" level="17"/>
-			<grant type="Grants" id="ID_INTERNAL__GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
 		</rules>
 	</element>
 	<element name="Spellcasting" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPEFEATURE_MOON_LIGHT_ASSASSIN_SPELLCASTING">
@@ -110,7 +109,7 @@
 
 	<!--Feature Replacement Grants-->
 	<element name="Spellcasting Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING" />
-	<element name="Sight of moon Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNİGHT_ASSASSİN_SIGHT_OF_MOON" />
+	<element name="Sight of moon Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_KNIGHT_ASSASSİN_SIGHT_OF_MOON" />
 	<element name="Luminous veil Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUMINOUS_VEIL" />
 	<element name="Lunar mark Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_LUNAR_MARK" />
 	<element name="Full moon requiem Feature Replacement" type="Grants" source="Offline Knights" id="OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_FULL_MOON_REQUIEM" />
