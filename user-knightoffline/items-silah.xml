@@ -33,5 +33,18 @@
 			<set name="slot">one hand</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="versatile">1d10</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SWORD</set>
+		</setters>
+	<element name="Savas yelpazasi" type="Weapon" source="Offline Knights" id="OK_WEAPON_SAVAS_YELPAZESI">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="5">1 lb.</set>
+			<set name="slot">one hand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SWORD</set>
 		</setters>
