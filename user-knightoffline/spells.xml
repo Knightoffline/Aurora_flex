@@ -63,7 +63,7 @@
 	</element>
 
 	<element name="Buzul Güllerin bahcesi" type="Spell" source="Offline Knights" id="OK_BUZUL_GULLERIN_BAHCESI">
-		<supports>Druid, Sorcerer, Wizard</supports>
+		<supports>Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Kullanıcının etrafında 20 ft yarıçaplı donmuş daire şeklinde bir bahçe açar. Kristal sarmaşıklar toprağı kaplar ve üzerlerinde mavi-beyaz güller açar. Alan zorlayıcı zemin haline gelir. </p>
 			<p class="indent">Alan yaratıldığında içinde kalan her yaratık Constutation kurtarma atışı yapar. Başarısız olusa Yaratık Restrained olur. Sarmaşıklar onu yerinde tutarken, dikenli buz gülleri 2d6 cold + 2d6 piercing damage verir. Başarılı olursa Yaratık restrain olmaz, ancak hasarın yarısını alır. </p>
@@ -89,7 +89,7 @@
 	</element>
 
 	<element name="Moon blessing" type="Spell" source="Offline Knights" id="OK_MOON_BLESSING">
-		<supports>Cleric, Druid, Rogue, Ranger</supports>
+		<supports>Cleric, Druid, Warlock</supports>
 		<description>
 			<p>The spell reveals the secrets typically cloaked by darkness.</p>
 			<p class="indent">Choose any number of creatures within range. For the duration, each target has darkvision out to a range of 30 feet, and has advantage on stealth ability checks. </p>
@@ -111,11 +111,10 @@
 	</element>
 
 	<element name="Altar of black moon" type="Spell" source="Offline Knights" id="OK_ALTAR_OF_BLACK_MOON">
-		<supports>Cleric, Druid, Rogue, Ranger</supports>
+		<supports>Cleric, Druid, Warlock</supports>
 		<description>
-			<p>Bu büyü rakiplerin tüm duyularıyla onyar.</p>
-			<p class="indent">Menzilindeki 2 hedefi seçersin ve rakibi wisdom kurtarma atışı yapmaya zorlarsın. Başarısız bir kurtarmada rakibin tüm duyularını birbirleriyle değiştirisin. </p>
-			<p>For example: ilk hedef ikinci hedefin görüş açısına ve diğer hislerine sahip olur, eğer saldırmak istediği rakip ikinci hedefin görüş açısına göre menzilde değilse saldırı yapamazsın.</p>
+			<p>Bu büyü, hedeflerin duyularını birbirine bağlayarak onları geçici olarak yabancı bir algı içine hapseder. Menzil içerisindeki iki yaratığı seçersin. Her biri Wisdom kurtarma atışı yapar. Başarısız olanlar, büyü süresince birbirlerinin görme, işitme ve koku alma duyularına sahip olur.</p>
+			<p class="indent">Bu etki, yaratıkların saldırı yapmasını, büyü hedeflemesini veya tehdit algılamasını etkileyebilir. Eğer biri diğerinin görüş alanında olmayan bir şeyi hedef almaya çalışırsa bunu yapamaz. Aynı şekilde, bir tuzağı koklayarak ya da sesiyle tespit etmeye çalışan yaratık, diğerinin algıladığı bilgileri alır. </p>
 			</description>
 		<setters>
 			<set name="keywords"></set>
@@ -128,6 +127,216 @@
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent" >Ay ışığıyla yıkanmış bir inci</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Clear Moon" type="Spell" source="Offline Knights" id="OK_CLEAR_MOON">
+		<supports>Cleric, Sorcerer, Warlock</supports>
+		<description>
+			<p>Kullanıcının 20 ft etrafı soluk bir ışıkla parlamaya başlar ve bu soluk ışık dost birimleri sarar. Alanın ıçındekiler üzerlerinde devasa bir ay silüeti görür.</p>
+			<p class="indent">Açılan bu alandaki dost birimlere yaplılan saldırılar dezavantajlıdır. Bu alan takım arkadaşlarının her türlü saldırı ve kurtarma zarlarına avantaj sağlar.</p>
+			<p>Bu ışığın dışındakiler alanın içini göremez, alanın içindekilerde dışarıyı göremez.</p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">6</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" >Holy symbol</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Arise From the Eclipse" type="Spell" source="Offline Knights" id="OK_ARISE_FROM_THE_ECLIPSE">
+		<supports>Cleric, Sorcerer, Warlock</supports>
+		<description>
+			<p>Güneş kendini ayın ardına saklar. Korkularınız gözünüzün önünde belirir. </p>
+			<p class="indent">Eclipse kullanıcıyı merkez alarak 60 ft yarıçaplı bir tutulma yaratır. Kararttığı gölgede büyüyü kullanan kişi hariç herkes wisdom kurtarma atışı yapar. Başarısız olan kişilerin en çok korktuğu figür karşılarında belirir. Bu figürler onlardan korkan kişiye saldırır. Yaratıklar büyü sona erince kaybolurlar.</p>
+			<p>Bu yaratıklar şu özelliklere sahiptir:</p>
+			<ol>			
+				<li>Bu yaratıklar büyü kullanıcısı tarafından kontrol edilemez.</li>
+				<li>Büyüye yakalanan en az cana sahip kişinin canının 1/4'i(minimum can değeri 8)</li>
+				<li>Fiziksel hasara direnç</li>
+				<li>Her türlü kurtarma atışına +4</li>
+				<li>Her türlü durum etkisine bağışıklık</li>
+				<li>Str:4 Dex:14 Con:6 Int:1 Wis:4 Cha:16</li>
+			</ol>
+			<p>Gölgelerin pençesi: yakın saldırı +3, 1d4+3 pshycic damage </p>
+			<p>Bu yaratıklara onları oluşmasına neden olan kişilerce yapılan saldırılar dezavantajlıdır.</p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">6</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="duration">10 minute</set>
+			<set name="range">self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" >Min 50 gp değerinde Smoky Quartz</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="" type="Spell" source="Offline Knights" id="OK_">
+		<supports></supports>
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level"></set>
+			<set name="school"></set>
+			<set name="time"></set>
+			<set name="duration"></set>
+			<set name="range"></set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" ></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="" type="Spell" source="Offline Knights" id="OK_">
+		<supports></supports>
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level"></set>
+			<set name="school"></set>
+			<set name="time"></set>
+			<set name="duration"></set>
+			<set name="range"></set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" ></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="" type="Spell" source="Offline Knights" id="OK_">
+		<supports></supports>
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level"></set>
+			<set name="school"></set>
+			<set name="time"></set>
+			<set name="duration"></set>
+			<set name="range"></set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" ></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="" type="Spell" source="Offline Knights" id="OK_">
+		<supports></supports>
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level"></set>
+			<set name="school"></set>
+			<set name="time"></set>
+			<set name="duration"></set>
+			<set name="range"></set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" ></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="" type="Spell" source="Offline Knights" id="OK_">
+		<supports></supports>
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level"></set>
+			<set name="school"></set>
+			<set name="time"></set>
+			<set name="duration"></set>
+			<set name="range"></set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" ></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="" type="Spell" source="Offline Knights" id="OK_">
+		<supports></supports>
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level"></set>
+			<set name="school"></set>
+			<set name="time"></set>
+			<set name="duration"></set>
+			<set name="range"></set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" ></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="" type="Spell" source="Offline Knights" id="OK_">
+		<supports></supports>
+		<description>
+			<p></p>
+			<p class="indent"></p>
+			</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level"></set>
+			<set name="school"></set>
+			<set name="time"></set>
+			<set name="duration"></set>
+			<set name="range"></set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent" ></set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
