@@ -28,47 +28,32 @@
 		</rules>
 	</element>
 
-	<element name="Spellcasting" type="Archetype Feature" source="Offline Knights" id="OK_MOON_LIGHT_ASSASSIN_SPELLCASTING">
-		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SPELLCASTING</requirements>
-		<description>
-			<p>When you reach 3rd level, you gain the ability to cast spells.</p>
-			<p class="indent"><b><i>Cantrips.</i></b> You learn three cantrips. You learn another cantrip of your choice at 10th level.</p>
-			<p class="indent"><b><i>Spell Slots.</i></b> Moon light assassin spellcasting table shows how many spell slots you have to cast your Cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
-			<p class="indent">For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot.</p>
-			<p class="indent"><b><i>Spells Known of 1st-Level and Higher.</i></b> You know three 1st-level Cleric spells of your choice.</p>
-			<p class="indent">The Spells Known column of the Moon light assassin Spellcasting table shows when you learn more Cleric spells of 1st level or higher and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p>
-			<p class="indent">The spells you learn at 8th, 14th, and 20th level can come from any Cleric domain</p>
-			<p class="indent">Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list.</p>
-			<p class="indent"><b><i>Spellcasting Ability.</i></b> Wisdom is your spellcasting ability for your cleric spells, since you learn your spells through dedicated study and memorization. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>
-			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
-			</center>
-			<h5 class="caption">MOON LIGHT ASSASSIN SPELLCASTING</h5>
-			<table class="class-features">
-				<thead>
-					<tr><td>Rogue Level</td><td>Spells</td></tr>
-				</thead>
-				<tr><td>3rd</td><td><em>ice knife, random bullshit go</em></td></tr>
-				<tr><td>5th</td><td><em>icingdeath’s frost, invisibility</em></td></tr>
-				<tr><td>7th</td><td><em>moon blessing, altar od black moon</em></td></tr>
-				<tr><td>9th</td><td><em>guardian of faith, ice storm</em></td></tr>
-			</table>
-		</description>
-		<sheet display="false">
-			<description>Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun.</description>
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="OK_RANDOM_BULLSHIT_GO" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_WOTC_UA20210414_SPELL_ICINGDEATHS_FROST" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="OK_MOON_BLESSING" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="OK_ALTAR_OF_BLACK_MOON" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Cleric" prepared="true" />
-		</rules>
-	</element>
+	<element name="Moon Light Assassins Spellcasting" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_MOON_LIGHT_ASSASSIN_SPELLCASTING">
+    <description>
+      <p>You gain domain spells at the rogue levels listed in the Moon Light Assassin Spells table. See the Domain class feature for how domain spells work.</p>
+      <h5 class="caption">MOON LIGHT ASSASSIN SPELLCASTING</h5>
+      <table>
+        <thead>
+          <tr><td>Rogue Level</td><td>Spells</td></tr>
+        </thead>
+        <tr><td>3rd</td><td><em>ice knife, random bullshit go</em></td></tr>
+        <tr><td>5th</td><td><em>icingdeath’s frost, invisibility</em></td></tr>
+        <tr><td>7th</td><td><em>moon blessing, altar of black moon</em></td></tr> 
+        <tr><td>9th</td><td><em>guardian of faith, ice storm</em></td></tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="OK_RANDOM_BULLSHIT_GO" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_WOTC_UA20210414_SPELL_ICINGDEATHS_FROST" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="OK_MOON_BLESSING" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="OK_ALTAR_OF_BLACK_MOON" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Cleric" prepared="true" />
+    </rules>
+  </element>
 	<element name="Sight of Moon" type="Archetype Feature" source="Offline Knights" id="OK_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON">
 		<requirements>!OK_FEATURE_REPLACEMENT_ROGUE_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON</requirements>
 		<description>
