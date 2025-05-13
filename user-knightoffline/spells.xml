@@ -174,7 +174,7 @@
 			</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">6</set>
+			<set name="level">5</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 action</set>
 			<set name="duration">10 minute</set>
@@ -188,155 +188,46 @@
 		</setters>
 	</element>
 
-	<element name="" type="Spell" source="Offline Knights" id="OK_">
-		<supports></supports>
+	<element name="Uuu shiny" type="Spell" source="Offline Knights" id="OK_UUU_SHINY">
+		<supports>Ranger, Sorcerer, Warlock</supports>
 		<description>
-			<p></p>
-			<p class="indent"></p>
+			<p>Parlak gümüş bir para fırlatırsın.</p>
+			<p class="indent">Parayı gören hedefler Wis kurtarma atışı yapmalı. Başarısız bir kurtarmada, charm etkisine girerler ve etkilenen kişilerin tüm dikkati paraya kayar.</p>
 			</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level"></set>
-			<set name="school"></set>
-			<set name="time"></set>
-			<set name="duration"></set>
-			<set name="range"></set>
+			<set name="level">Cantrip</set>
+			<set name="school">Illusion</set>
+			<set name="time">bonus action</set>
+			<set name="duration">20 second</set>
+			<set name="range">15 ft</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent" ></set>
-			<set name="isConcentration">true</set>
+			<set name="materialComponent" >1 silver coin</set>
+			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
 
-	<element name="" type="Spell" source="Offline Knights" id="OK_">
-		<supports></supports>
+	<element name="Exile moon" type="Spell" source="Offline Knights" id="OK_EXILE_MOON">
+		<supports>Cleric, Sorcerer, Warlock</supports>
 		<description>
-			<p></p>
-			<p class="indent"></p>
+			<p>Ayın tüm öfkesi üzerine parlar.</p>
+			<p class="indent">Seçtiğin hedefe ayın tüm gücünü serbest bırakırsın. Hedef Dex kurtarma atışı yapar, başarısız bir atışta rakip 8d8 hasar alır ve en yakınındaki 3 kişiye zincirler yollar ve onlarıda Dex kurtarma atışına zorlar ve tüm hedefler kurtarma atışında başarılı olana kadar bu döngü devam eder. Başarılı bir kurtarmada hasarın yarısı verilir ve zincirler oluşmaz.</p>
+			<p>Bu etki aynı hedefe birden fazla defa etki edemez. Bu büyünün kullanıldığı ilk hedef 1 tur stun durumuna girer</p>
 			</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level"></set>
-			<set name="school"></set>
-			<set name="time"></set>
+			<set name="level">8</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
 			<set name="duration"></set>
-			<set name="range"></set>
+			<set name="range">30 ft</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent" ></set>
-			<set name="isConcentration">true</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="" type="Spell" source="Offline Knights" id="OK_">
-		<supports></supports>
-		<description>
-			<p></p>
-			<p class="indent"></p>
-			</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level"></set>
-			<set name="school"></set>
-			<set name="time"></set>
-			<set name="duration"></set>
-			<set name="range"></set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent" ></set>
-			<set name="isConcentration">true</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="" type="Spell" source="Offline Knights" id="OK_">
-		<supports></supports>
-		<description>
-			<p></p>
-			<p class="indent"></p>
-			</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level"></set>
-			<set name="school"></set>
-			<set name="time"></set>
-			<set name="duration"></set>
-			<set name="range"></set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent" ></set>
-			<set name="isConcentration">true</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="" type="Spell" source="Offline Knights" id="OK_">
-		<supports></supports>
-		<description>
-			<p></p>
-			<p class="indent"></p>
-			</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level"></set>
-			<set name="school"></set>
-			<set name="time"></set>
-			<set name="duration"></set>
-			<set name="range"></set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent" ></set>
-			<set name="isConcentration">true</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="" type="Spell" source="Offline Knights" id="OK_">
-		<supports></supports>
-		<description>
-			<p></p>
-			<p class="indent"></p>
-			</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level"></set>
-			<set name="school"></set>
-			<set name="time"></set>
-			<set name="duration"></set>
-			<set name="range"></set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent" ></set>
-			<set name="isConcentration">true</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="" type="Spell" source="Offline Knights" id="OK_">
-		<supports></supports>
-		<description>
-			<p></p>
-			<p class="indent"></p>
-			</description>
-		<setters>
-			<set name="keywords"></set>
-			<set name="level"></set>
-			<set name="school"></set>
-			<set name="time"></set>
-			<set name="duration"></set>
-			<set name="range"></set>
-			<set name="hasVerbalComponent">true</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent" ></set>
+			<set name="materialComponent" >ay ışığıyla renk değiştirmiş yakut(500gp)</set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
