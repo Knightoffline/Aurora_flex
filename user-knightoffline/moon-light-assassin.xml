@@ -59,14 +59,14 @@
 			<description>Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun.</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" spellcasting="Rogue" prepared="true" />
-			<grant type="Spell" id="OK_RANDOM_BULLSHIT_GO" level="3" spellcasting="Rogue" prepared="true" />
-			<grant type="Spell" id="ID_WOTC_UA20210414_SPELL_ICINGDEATHS_FROST" level="5" spellcasting="Rogue" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Rogue" prepared="true" />
-			<grant type="Spell" id="OK_MOON_BLESSING" level="7" spellcasting="Rogue" prepared="true" />
-			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_WATER" level="7" spellcasting="Rogue" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="9" spellcasting="Rogue" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Rogue" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="OK_RANDOM_BULLSHIT_GO" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_UA20210414_SPELL_ICINGDEATHS_FROST" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="OK_MOON_BLESSING" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_WATER" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="9" spellcasting="Cleric" prepared="true" />
 		</rules>
 	</element>
 	<element name="Sight of Moon" type="Archetype Feature" source="Offline Knights" id="OK_MOON_LIGHT_ASSASSIN_SIGHT_OF_MOON">
