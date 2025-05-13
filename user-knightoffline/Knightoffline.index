@@ -9,7 +9,6 @@
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/source.xml" />
         <file name="spells.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/spells.xml" />
-		<file name="moon-light-assassin.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/moon-light-assassin.xml" />
 		<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/ranger-beast-master.xml" />
 		<file name="items-silah.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/items-silah.xml" />
 	</files>
