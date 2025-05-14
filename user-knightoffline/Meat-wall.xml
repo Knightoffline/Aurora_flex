@@ -345,4 +345,5 @@
 			<stat name="strength:max" value="2" />
 			<stat name="constitution:max" value="6" />
 		</rules>
-	</elements>
+	</element>
+</elements>
