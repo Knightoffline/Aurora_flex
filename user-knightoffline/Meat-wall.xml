@@ -141,8 +141,7 @@
 			<p>Kendini takım arkadaşlarının önüne siper etmek için eğitildin. Bodyguard Mode’a geçtiğinde, düşmanların seni görmezden gelmesini zorlaştırır ve müttefiklerine yönelen tehditleri saptırabilirsin. Bonus Action harcayarak Bodyguard Mode’a girersin. Bu mod, 1 dakika veya sen bilincini kaybedene kadar sürer. Bu modda:</p>
 			<ul>
 				<li>Taunt Radius içindeki düşmanlar, senden başka birine saldırmak isterse Wisdom Saving Throw (DC = 8 + Prof + CON mod) atmak zorundadır. Başarısız olurlarsa saldırıyı sana yöneltirler veya dezavantajla yaparlar.</li>
-				<li>Seninle 5 ft. mesafede olan bir dostun hedef alındığında, Reaction kullanarak araya girip hasarın tamamını Soak Pool'dan absorbe edebilirsin.</li>
-				<li>Her tur başında 1 Soak Point kaybedersin. Soak Pool sıfırlandığında Bodyguard Mode sona erer.</li>
+				<li>Seninle 5 ft. mesafede olan bir dostun hedef alındığında, Reaction kullanarak araya girip hasarın tamamını absorbe edebilirsin.</li>
 			</ul>
 		</description>
 		<sheet action="Bonus Action">
@@ -307,6 +306,14 @@
 				<li>Ayrıca düşmene neden olacak zemin veya durumlar bile seni kolay kolay etkileyemez.</li>
 				<li>Bu özellik, seni savaştaki sabit kaya haline getirir. Hatta istersen müttefiklerin seni siper olarak da kullanabilir. +2 AC</li>
 			</ul>
+		<sheet>
+			<ul>
+				<li>İtme, çekme, yere düşürme, savurma gibi fiziksel kontrol etkilerine karşı tamamen bağışıklık kazanır.</li>
+				<li>Zihinsel etkiler hariç, vücudunu zorla hareket ettirmeye yönelik her şey neredeyse işe yaramaz.</li>
+				<li>Ayrıca düşmene neden olacak zemin veya durumlar bile seni kolay kolay etkileyemez.</li>
+				<li>Bu özellik, seni savaştaki sabit kaya haline getirir. Hatta istersen müttefiklerin seni siper olarak da kullanabilir. +2 AC</li>
+			</ul>
+		</sheet>
 		</description>
 	</element>
 	<element name="Endless stand" type="Class Feature" source="Offline Knights" id="ID_WOTC_PHB_CLASS_FEATURE_MEAT_WALL_ENDLESS_STAND">
