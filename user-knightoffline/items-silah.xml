@@ -51,4 +51,18 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SWORD</set>
 		</setters>
 	</element>
+	<element name="Big Fucking bijon ahahtarı" type="Weapon" source="Offline Knights" id="OK_WEAPON_BIJON_ANAHTARI">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONİNG, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_QUARTERSTAFF</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="170">170 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="bludgeoning">2d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</set>
+		</setters>
+	</element>
 </elements>
