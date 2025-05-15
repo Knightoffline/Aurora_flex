@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="Fighter-leper.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/Fighter-leper.xml" />
+		</update>
+	</info>
+
+	<!-- Leper Archetype -->
+	<element name="Leper" type="Archetype" source="Offline Knights" id="OK_ARCHETYPE_LEPER">
+		<supports>Martial Archetype</supports>
+		<description>
+			<p>Mücadele ve beyhudelik – Her gün, hayatın kıvılcımını bir gece daha yanık tutmak için verilen bir savaştır. Cüzamlı, bu hüzünlü gerçeği benimsemiştir. İşkence dolu bir yaşam ona yalnızca kendine güvenmeyi öğretmiş, enerjisini içe döndürerek içinde bir direniş krallığı kurmasına sebep olmuştur. Gücü ne iyileştirmek ne de yardım etmek içindir; insan sınırlarının ötesinde dayanmak içindir. Ve devasa kılıcı düştüğünde, onun gürleyen savuruşu, yakalanan herkes için ölümün çanı olur.</p>
+			<div element="OK_ARCHETYPE_FEATURE_LEPROSY"/>
+			<div element="OK_ARCHETYPE_FEATURE_REVENCE"/>
+			<div element="OK_ARCHETYPE_FEATURE_SOLEMNITY"/>
+			<div element="OK_ARCHETYPE_FEATURE_PURSE"/>
+			<div element="OK_ARCHETYPE_FEATURE_WICHSCAUD"/>
+			<div element="OK_ARCHETYPE_FEATURE_INCIMIDACE"/>
+		</description>
+		<sheet display="false">
+			<description>Cüzamlı, bu hüzünlü gerçeği benimsemiştir. İşkence dolu bir yaşam ona yalnızca kendine güvenmeyi öğretmiş, enerjisini içe döndürerek içinde bir direniş krallığı kurmasına sebep olmuştur. Gücü ne iyileştirmek ne de yardım etmek içindir; insan sınırlarının ötesinde dayanmak içindir. Ve devasa kılıcı düştüğünde, onun gürleyen savuruşu, yakalanan herkes için ölümün çanı olur.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_LEPROSY" level="3" />
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_REVENCE" level="3" />
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_SOLEMNITY" level="7" />
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_PURSE" level="10" />
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_WICHSCAUD" level="15" />
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_INCIMIDACE" level="18" />
+		</rules>
+	</element>
+	<element name="Leprosy" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_LEPROSY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_LEPROSY</requirements>
+		<description>
+			<p>“Uyuşmuş eti oy ve içindeki insanı açığa çıkar.” Turun dışında hasar aldığında, o hasar 0’a düşer. Bir sonraki turunun başında, bu şekilde önlenen tüm hasarı alırsın.</p>
+		</description>
+		<sheet>
+			<description>Turun dışında hasar aldığında, o hasar 0’a düşer. Bir sonraki turunun başında, bu şekilde önlenen tüm hasarı alırsın.</description>
+		</sheet>
+	</element>
+	<element name="Revenge" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_REVENCE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_REVENCE</requirements>
+		<description>
+			<p>“Acı bir yanılgıdır. Gerçek olan yalnızca ölümdür.” Kendi turunda hasar aldıktan hemen sonra, tepki hakkını kullanarak menzilindeki bir yaratığa yakın dövüş silahı saldırısı yapabilirsin. Eğer saldırın isabet ederse, aldığın hasarın yarısı kadar fazladan hasar verirsin.</p>
+			<p class="indent"> Saldırı başarısız olursa, bu özelliğin kullanımı boşa gitmez. Bu özelliği, Güç (Strength) puanı kadar kullanabilirsin. Uzun dinlenmeden sonra tüm kullanımlar yenilenir.</p>
+		</description>
+		<sheet>
+			<description>Kendi turunda hasar aldıktan hemen sonra, tepki hakkını kullanarak menzilindeki bir yaratığa yakın dövüş silahı saldırısı yapabilirsin. Saldırı başarısız olursa, bu özelliğin kullanımı boşa gitmez. Bu özelliği, {{strength:modifier}} puanı kadar kullanabilirsin. Uzun dinlenmeden sonra tüm kullanımlar yenilenir.</description>
+		</sheet>
+	</element>
+	<element name="Solemnity" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_SOLEMNITY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_SOLEMNITY</requirements>
+		<description>
+			<p>“Arının çiçeğe gelişi, kraliçenin emriyledir.” İnisiyatif attığında, 1 dakika sürecek bir “Vakarlık” hâline geçmeyi seçebilirsin. Bu hâlde şu etkiler geçerli olur: </p>
+			<ul>
+				<li>Yakın dövüş silahı saldırı ve hasar atışlarına +2 bonus alırsın.</li>
+				<li>Yakın dövüş saldırıların 19 veya 20 zarlarında kritik vuruş yapar.</li>
+				<li>Sana karşı yapılan saldırı atışları avantajlı olur ve +1d6 fazladan hasar verir.</li>
+			</ul>
+			<p>16. seviyeden itibaren:</p>
+			<ul>
+				<li>Saldırı ve hasar bonusu +3 olur.</li>
+				<li>Kritik vuruş aralığın 18–20 olur.</li>
+				<li>Sana karşı yapılan saldırıların fazladan verdiği hasar 1d10 olur.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+			<p>İnisiyatif attığında, 1 dakika sürecek bir “Vakarlık” hâline geçmeyi seçebilirsin. Bu hâlde şu etkiler geçerli olur: </p>
+			<ul>
+				<li>Yakın dövüş silahı saldırı ve hasar atışlarına +2 bonus alırsın.</li>
+				<li>Yakın dövüş saldırıların 19 veya 20 zarlarında kritik vuruş yapar.</li>
+				<li>Sana karşı yapılan saldırı atışları avantajlı olur ve +1d6 fazladan hasar verir.</li>
+			</ul>
+			<p>16. seviyeden itibaren:</p>
+			<ul>
+				<li>Saldırı ve hasar bonusu +3 olur.</li>
+				<li>Kritik vuruş aralığın 18–20 olur.</li>
+				<li>Sana karşı yapılan saldırıların fazladan verdiği hasar 1d10 olur.</li>
+			</ul>
+			</description>
+		</sheet>
+	</element>
+	<element name="Purge" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_PURGE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_PURGE</requirements>
+		<description>
+			<p>“Okyanusun kalbindeki nehir ejderhası.” Kanlar içindeyken (kanlı = yarı canın altındaysan), İntikam (Revenge) özelliğini kullandığında, saldırı isabet ederse kullanım hakkı harcanmaz.</p>
+		</description>
+		<sheet>
+			<description>Kanlar içindeyken (kanlı = yarı canın altındaysan), İntikam (Revenge) özelliğini kullandığında, saldırı isabet ederse kullanım hakkı harcanmaz.</description>
+		</sheet>
+	</element>
+	<element name="Withstand" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_WICHSCAUD">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_WICHSCAUD</requirements>
+		<description>
+			<p>“Azrail beni iyi tanır. Ondan korkmam.” Aldığın hasar, Savaşçı (Fighter) seviyenin üç katı ile beş katı arasındaysa, bu hasar otomatik olarak seviyenin üç katına düşürülür.</p>
+		</description>
+		<sheet>
+			<description>Aldığın hasar, Savaşçı (Fighter) seviyenin üç katı ile beş katı arasındaysa, bu hasar otomatik olarak seviyenin üç katına düşürülür.</description>
+		</sheet>
+	</element>
+	<element name="Incimidace" type="Archetype Feature" source="Offline Knights" id="OK_ARCHETYPE_FEATURE_INCIMIDACE">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_INCIMIDACE</requirements>
+		<description>
+			<p>“Güç, korkusuzluğun armağanıdır. Her zaman böyle olmuştur.” Şu avantajları kazanırsın: </p>
+			<ul>
+				<li>Korkmuş (Frightened) durumuna karşı bağışıklık kazanırsın.</li>
+				<li>Yakın dövüş silahı saldırısıyla bir yaratığa vurduğunda, eğer o yaratık bir önceki turunda sana saldırdıysa ya da sana kurtulma atışı yaptırdıysa, bu yaratık Bilgelik kurtarma atışı yapmak zorundadır (DC = 8 + yeterlilik bonusu + Güç puanı). Başarısız olursa, senden 1 dakika boyunca korkar.</li>
+				<li>Her tur sonunda bu atışı tekrar edip etkiden kurtulabilir. Korkmuş bir yaratığa yakın dövüş silahıyla vurduğunda ve eğer kanlar içindeysen, 1d10 + savaşçı seviyenin yarısı kadar can yenilersin.</li>
+			</ul>
+		</description>
+		<sheet>
+			<p>Şu avantajları kazanırsın: </p>
+			<ul>
+				<li>Korkmuş (Frightened) durumuna karşı bağışıklık kazanırsın.</li>
+				<li>Yakın dövüş silahı saldırısıyla bir yaratığa vurduğunda, eğer o yaratık bir önceki turunda sana saldırdıysa ya da sana kurtulma atışı yaptırdıysa, bu yaratık Bilgelik kurtarma atışı yapmak zorundadır (DC = 8 + yeterlilik bonusu + Güç puanı). Başarısız olursa, senden 1 dakika boyunca korkar.</li>
+				<li>Her tur sonunda bu atışı tekrar edip etkiden kurtulabilir. Korkmuş bir yaratığa yakın dövüş silahıyla vurduğunda ve eğer kanlar içindeysen, 1d10 + savaşçı seviyenin yarısı kadar can yenilersin.</li>
+			</ul>
+		</sheet>
+	</element>
+
+	<!--Feature Replacement Grants-->
+	<element name="Leprosy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_LEPROSY" />
+	<element name="Revence Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_REVENCE" />
+	<element name="Solemnity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_SOLEMNITY" />
+	<element name="Purce Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_PURGE" />
+	<element name="Wichstand Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_WICHSCAUD" />
+	<element name="Incimidace Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_LEPER_INCIMIDACE" />
+</elements>
