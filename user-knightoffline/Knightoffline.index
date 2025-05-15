@@ -9,6 +9,7 @@
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/source.xml" />
         <file name="spells.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/spells.xml" />
+		<file name="Fighter-leper.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/Fighter-leper.xml" />
 		<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/ranger-beast-master.xml" />
 		<file name="Meat-wall.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/Meat-wall.xml" />
 		<file name="items-silah.xml" url="https://raw.githubusercontent.com/knightoffline/Aurora_flex/main/user-knightoffline/items-silah.xml" />
