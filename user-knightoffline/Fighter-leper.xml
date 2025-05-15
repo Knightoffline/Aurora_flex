@@ -25,7 +25,7 @@
 			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_LEPROSY" level="3" />
 			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_REVENCE" level="3" />
 			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_SOLEMNITY" level="7" />
-			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_PURSE" level="10" />
+			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_PURGE" level="10" />
 			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_WICHSCAUD" level="15" />
 			<grant type="Archetype Feature" id="OK_ARCHETYPE_FEATURE_INCIMIDACE" level="18" />
 		</rules>
